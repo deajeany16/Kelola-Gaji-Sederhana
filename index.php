@@ -21,39 +21,7 @@ $gaaji = query("SELECT karyawan_id, nama, nama_golongan, tanggal, potongan, juml
 <body>
     <div class="container">
         
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="#" class="navbar-brand">----</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-            <a class="nav-link text-white bg-primary rounded " href="index.php">Daftar Gaji Karyawan</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-dark " href="tampil_gaji.php">Data Gaji</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-dark" href="tampil_golongan.php">Data Golongan</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-dark " href="tampil_karyawan.php">Data Karyawan</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-dark " href="tampil_cuti.php">Data Cuti</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-dark " href="tampil_lembur.php">Data Lembur</a>
-            </li>
-        </ul>
-        </div>
-    </nav>
-
-
-    <!--    <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
@@ -78,7 +46,6 @@ $gaaji = query("SELECT karyawan_id, nama, nama_golongan, tanggal, potongan, juml
 		        </div>
             </div>
         </nav>
--->
 
         <div class="text-center">
             <br>
